@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 10</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <div class="img-welcome">
+      <img
+        alt="Open Enrollment"
+        width="100%"
+        height="400"
+        src="https://media.istockphoto.com/id/1439915602/photo/speech-bubble-and-megaphone-that-says-open-enrollment.jpg?s=612x612&w=0&k=20&c=PrzXeljX9cwia3Jclo8jmB9Mooo0JTN6qfohg9813xQ="
+      />
+    </div>
+    <br />
+
+    <h2 align="center">Course Enrollment Page</h2>
+    <br />
+    <br />
+    <table class="table table-stripped">
+      <tr>
+        <th>Student Name</th>
+        <th>Course Name</th>
+        <th>Student ID</th>
+      </tr>
+    </table>
+    <br />
+    <br />
+
+    <form>
+      <div>
+        <label for="studentName" class="form-label" placeholder="Student Name"
+          >Student Name</label
+        >
+        <input type="text" class="form-control" id="studentName" />
+      </div>
+      <div>
+        <label for="courseName" class="form-label" placeholder="Course Name"
+          >Course Name</label
+        >
+        <input type="text" class="form-control" id="courseName" />
+      </div>
+      <div>
+        <label for="studentId" class="form-label" placeholder="Student ID"
+          >Student ID</label
+        >
+        <input type="text" class="form-control" id="studentId" />
+      </div>
+      <button type="button" class="btn btn-primary" id="formEnroll">
+        Complete Enrollment
+      </button>
+    </form>
+
+    <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
